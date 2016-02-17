@@ -2,9 +2,9 @@
   padding-top: 50px;
   padding-bottom: 20px;
 
-  background-image: url("../images/Background.jpg");
+  background-image: url("../images/Background-1x.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -96,4 +96,22 @@ textarea {
 .socicon-button [class^="socicon-"], .socicon-button [class*=" socicon-"] {
   vertical-align: middle;
   margin-right: 0.3em;
+}
+
+
+
+/* 
+ * Retina Images 
+ */
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+  body {
+    background-image: url("../images/Background-2x.jpg");
+  }
 }
