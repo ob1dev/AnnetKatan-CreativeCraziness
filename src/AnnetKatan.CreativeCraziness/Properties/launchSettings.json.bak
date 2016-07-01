@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:10080/",
+      "applicationUrl": "http://localhost:56906/",
       "sslPort": 0
     }
   },
@@ -12,15 +12,13 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Hosting:Environment": "Development"
       }
     },
-    "AnnetKatan.CreativeCraziness": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+    "web": {
+      "commandName": "web",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Hosting:Environment": "Development"
       }
     }
   }
