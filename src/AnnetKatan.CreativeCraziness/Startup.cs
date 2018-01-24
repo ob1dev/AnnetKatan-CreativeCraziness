@@ -27,7 +27,6 @@ namespace AnnetKatan.CreativeCraziness
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            //app.UseFileServer();
         }
     }
 }
