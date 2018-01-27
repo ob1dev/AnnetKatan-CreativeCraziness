@@ -2,8 +2,6 @@
 
 Creative Art/Photo Project by Annet Katan.
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?maxAge=2592000)](http://creativecraziness.xyz/)
-
 |Branch|VSTS|
 |:----:|:-------:|
 |**master**|[![Build Status](https://olegburov.visualstudio.com/_apis/public/build/definitions/f80dd360-0040-4903-b000-fb68f57c1f80/3/badge)](https://olegburov.visualstudio.com/Creative-Craziness/_build?_a=completed&definitionId=3)|
