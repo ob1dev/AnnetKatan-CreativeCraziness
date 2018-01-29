@@ -1,2 +1,0 @@
-﻿@using AnnetKatan.CreativeCraziness
-@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
